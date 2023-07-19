@@ -2,10 +2,10 @@
 from web3 import Web3
 from web3.providers import BaseProvider
 from etherscan import Etherscan
-from web3r.pricer import Pricer
-from web3r.utils import Utils
-from web3r.the_graph_uniswapV3 import TheGraphUniswapV3
-from web3r.tokens import Tokens
+from .pricer import Pricer
+from .utils import Utils
+from .the_graph_uniswapV3 import TheGraphUniswapV3
+from .tokens import Tokens
 
 class Web3R(Web3):
     """
